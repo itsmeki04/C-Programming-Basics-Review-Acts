@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+        int a, b, add, sub, mult;
+          double div;
+
+       printf("Input any 2 integers:");
+       scanf("%d %d", &a, &b);
+          add = a+b;
+          sub = a-b;
+    mult = a*b;
+    div = a/b;
+        printf("Add: %d\n", add);
+        printf("Sub: %d\n", sub);
+        printf("Mult: %d\n",mult);
+        printf("Div: %f\n", div);
+
+
+    return 0;
+
+}
